@@ -1,16 +1,9 @@
 ---
-################
-## 友情链接页面配置
-################
-# 网站标题
 title: Webstack
-# 网站 LOGO（可选）
 # logo: https://webstack.cc/assets/images/logo@2x.png
-# 友情链接页面关键字（可选）
 keywords: webstack, nirvanzhu, Labs
-# 友情链接描述（可选）
 description: nir's Labs
-# 友情链接页面 URL（可选）
+# 页面 URL（可选）
 # url: https://lab.aquanir.cc/webstack
 # Favicon（可选）
 shortcut_icon: https://avatars.githubusercontent.com/u/17077455?s=70&v=4
@@ -27,23 +20,20 @@ link_exchange_url: https://lab.aquanir.cc/redirect/webstack
 # Google Analytics Code（可选）
 # ga_tracking_code_id: G-ABCDEFG
 
-################
-## 友情链接数据
-################
 categories:
   - category: 新增
     icon: linecons-star
     links:
-      - title: Document
-        logo: https://docs.nir.land/assets/android-chrome-192x192.png
-        url: https://docs.nir.land
-        description: 文档说明页
-        tags: docs
-      - title: Tiny Tiny RSS
-        logo: https://cdn.nir.land/image/project/ttrss.png
-        url: https://ttrss.nir.land
-        description: 自建 RSS 网页阅读器
-        tags: RSS
+      - title: 音乐解锁
+        logo: https://avatars.githubusercontent.com/u/62338146?s=200&v=4
+        url: https://lab.aquanir.cc/music-unlocker
+        description: 解锁网易云、QQ音乐等加密音乐文件
+        tags: Labs
+      - title: 打字练习
+        logo: https://raw.githubusercontent.com/Kaiyiwing/qwerty-learner/master/src/assets/logo.svg
+        url: https://lab.aquanir.cc/qwerty-learner
+        description: 练习打字，同时还能学单词
+        tags: Labs
 
   - category: 推荐
     hide_menu: true
@@ -54,11 +44,11 @@ categories:
         url: https://docs.nir.land
         description: 文档说明页
         tags: 文档
-      - title: Tiny Tiny RSS
-        logo: https://cdn.nir.land/image/project/ttrss.png
-        url: https://ttrss.nir.land
-        description: 自建 RSS 网页阅读器
-        tags: RSS
+      - title: 音乐解锁
+        logo: https://avatars.githubusercontent.com/u/62338146?s=200&v=4
+        url: https://lab.aquanir.cc/music-unlocker
+        description: 解锁网易云、QQ音乐等加密音乐文件
+        tags: Labs
 
   - category: 博客
     icon: linecons-doc
@@ -68,11 +58,6 @@ categories:
         url: https://blog.nir.land
         description: 生活日记
         tags: Blog
-      - title: 占位
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">X</text></svg>
-        url: https://lab.aquanir.cc/redirect/lab
-        description: 占位用
-        tags: 占位
 
   - category: 项目
     icon: linecons-doc
@@ -87,6 +72,16 @@ categories:
         url: https://rsshub.nir.land
         description: RSS 订阅源生成器
         tags: RSS
+      - title: 云端网盘
+        logo: https://drive.nir.land/android-chrome-192x192.png
+        url: https://drive.nir.land
+        description: OneDrive 云端网盘
+        tags: 网盘, OneDrive
+        title: 音乐播放器
+        logo: https://github.com/nirvanazhu/music-web/raw/main/images/logo.png
+        url: https://music.nir.land
+        description: 网易云音乐第三方播放器
+        tags: 播放器, 网易云音乐
 
   - category: 实验室
     icon: linecons-doc
