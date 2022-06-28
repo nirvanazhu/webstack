@@ -77,7 +77,7 @@ categories:
         url: https://drive.nir.land
         description: OneDrive 云端网盘
         tags: 网盘, OneDrive
-        title: 音乐播放器
+      - title: 音乐播放器
         logo: https://github.com/nirvanazhu/music-web/raw/main/images/logo.png
         url: https://music.nir.land
         description: 网易云音乐第三方播放器
