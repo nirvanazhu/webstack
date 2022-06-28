@@ -23,7 +23,7 @@ home_url: https://lab.aquanir.cc/webstack
 # 网站 about 链接（可选）
 # about_url: https://lab.aquanir.cc/webstack
 # 交换链接的 URL
-link_exchange_url: https://lab.aquanir.cc/redirect/lab
+link_exchange_url: https://lab.aquanir.cc/redirect/webstack
 # Google Analytics Code（可选）
 # ga_tracking_code_id: G-ABCDEFG
 
@@ -35,41 +35,41 @@ categories:
     icon: linecons-star
     links:
       - title: Document
-        logo: https://docs.nir.land/assets/favicon-32x32.png
+        logo: https://docs.nir.land/assets/android-chrome-192x192.png
         url: https://docs.nir.land
-        description: 文档说明页。
+        description: 文档说明页
         tags: docs
-      - title: 占位
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://lab.aquanir.cc/redirect/lab
-        description: 占位用
-        tags: 占位
+      - title: Tiny Tiny RSS
+        logo: https://cdn.nir.land/image/project/ttrss.png
+        url: https://ttrss.nir.land
+        description: 自建 RSS 网页阅读器
+        tags: RSS
 
   - category: 推荐
     hide_menu: true
     icon: linecons-star
     links:
       - title: Document
-        logo: https://docs.nir.land/assets/favicon-32x32.png
+        logo: https://docs.nir.land/assets/android-chrome-192x192.png
         url: https://docs.nir.land
         description: 文档说明页
-        tags: docs
-      - title: 占位
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://lab.aquanir.cc/redirect/lab
-        description: 占位用
-        tags: 占位
+        tags: 文档
+      - title: Tiny Tiny RSS
+        logo: https://cdn.nir.land/image/project/ttrss.png
+        url: https://ttrss.nir.land
+        description: 自建 RSS 网页阅读器
+        tags: RSS
 
   - category: 博客
     icon: linecons-doc
     links:
       - title: Blog
-        logo: https://blog.nir.land/favicon-32x32.png
+        logo: https://blog.nir.land/android-chrome-192x192.png
         url: https://blog.nir.land
         description: 生活日记
-        tags: blog
+        tags: Blog
       - title: 占位
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">X</text></svg>
         url: https://lab.aquanir.cc/redirect/lab
         description: 占位用
         tags: 占位
@@ -81,9 +81,23 @@ categories:
         logo: https://cdn.nir.land/image/project/ttrss.png
         url: https://ttrss.nir.land
         description: 自建 RSS 网页阅读器
-        tags: rss
-      - title: 占位
-        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">G</text></svg>
-        url: https://lab.aquanir.cc/redirect/lab
-        description: 占位用
-        tags: 占位
+        tags: RSS
+      - title: RssHub
+        logo: https://cdn.nir.land/image/project/rsshub.png
+        url: https://rsshub.nir.land
+        description: RSS 订阅源生成器
+        tags: RSS
+
+  - category: 友链
+    icon: linecons-doc
+    links:
+      - title: nirvanazhu
+        logo: https://nirvanazhu.com/android-chrome-192x192.png
+        url: https://nirvanazhu.com
+        description: 我的主页
+        tags: 友链
+      - title: 点击申请
+        logo: data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="0.9em" x="0.1em" font-size="90">T</text></svg>
+        url: https://lab.aquanir.cc/redirect/webstack
+        description: 申请 Webstack 友链
+        tags: 友链
